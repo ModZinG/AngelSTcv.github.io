@@ -1,0 +1,257 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(to bottom, #ffffff 20%, #808080 60%, #000000 90%);
+}
+
+nav {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+    background-color: rgba(211, 211, 211, 0.4);
+    backdrop-filter: blur(10px);
+    margin: 30px 150px 10px 150px;
+}
+
+.perfil p {
+    text-align: justify;
+}
+
+.centrados{
+    text-align: center;
+}
+
+
+.educacion {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    background-color: rgba(245, 245, 245, 0.6);
+    backdrop-filter: blur(10px);
+    margin: 30px 150px 10px 150px;
+    padding: 20px;
+}
+
+.info-educacion {
+    width: 50%;
+}
+
+.foto-escuela {
+    width: 50%;
+}
+
+.foto-escuela img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.info-educacion button {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+
+.habilidades {
+    background-color: rgba(211, 211, 211, 0.4);
+    backdrop-filter: blur(10px);
+    margin: 30px 150px 10px 150px;
+    padding: 20px;
+    text-align: center;
+}
+
+.lista-habilidades {
+    display: grid;
+    grid-template-columns: repeat(3, 120px);
+    justify-content: center;
+    gap: 50px;
+}
+
+.lista-habilidades div {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    width: 120px;
+    text-align: center;
+}
+
+.cursos {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    background-color: rgba(245, 245, 245, 0.6);
+    backdrop-filter: blur(10px);
+    margin: 30px 150px 10px 150px;
+    padding: 20px;
+}
+
+.foto-cursos {
+    width: 40%;
+}
+
+.foto-cursos img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.info-cursos {
+    width: 60%;
+    text-align: center;
+}
+
+.lista-cursos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.curso {
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+.curso p {
+    text-align: justify;
+}
+
+
+
+.portafolio {
+    background-color: rgba(211, 211, 211, 0.4);
+    backdrop-filter: blur(10px);
+    margin: 30px 150px 10px 150px;
+    padding: 20px;
+    text-align: center;
+}
+
+.lista-portafolio {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.proyecto {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    width: 50%;
+}
+
+.proyecto img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.proyecto p {
+    text-align: justify;
+}
+
+
+.proyecto iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: none;
+    border-radius: 10px;
+    display: block;
+}
+
+
+
+.intereses {
+    background-color: rgba(245, 245, 245, 0.6);
+    backdrop-filter: blur(10px);
+    margin: 30px 150px 10px 150px;
+    padding: 20px;
+    text-align: center;
+}
+
+.lista-intereses {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.interes {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    width: 33.33%;
+}
+
+.interes p {
+    text-align: justify;
+}
+
+
+
+
+.contacto {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    margin: 30px 0px 0px 0px;
+    padding: 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.redes-sociales {
+    width: 50%;
+    text-align: center;
+}
+
+.iconos-redes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.iconos-redes a {
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.iconos-redes a:hover {
+    color: gray;
+}
+
+.informacion-contacto {
+    width: 50%;
+}
+
+.dato-contacto {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 15px;
+}
+
+.dato-contacto i {
+    font-size: 25px;
+}
+
+.dato-contacto p {
+    font-size: 14px;
+}
